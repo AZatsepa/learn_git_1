@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'static_pagesrake/routes'
 
   root 'static_pages#home'
@@ -9,6 +10,9 @@ Rails.application.routes.draw do
 
   get 'users/show' => 'users#all_users'
 
+=======
+  devise_for :users
+>>>>>>> 55b1704777d77727b8f6a2089d2df1e01002397a
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

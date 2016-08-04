@@ -11,6 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20160722164302) do
 
   # These are extensions that must be enabled in order to support this database
@@ -24,6 +25,9 @@ ActiveRecord::Schema.define(version: 20160722164302) do
     t.datetime "updated_at",                   null: false
     t.string   "status",     default: "draft"
   end
+=======
+ActiveRecord::Schema.define(version: 20160718165912) do
+>>>>>>> 55b1704777d77727b8f6a2089d2df1e01002397a
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -42,7 +46,12 @@ ActiveRecord::Schema.define(version: 20160722164302) do
     t.datetime "updated_at",                          null: false
   end
 
+<<<<<<< HEAD
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+=======
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+>>>>>>> 55b1704777d77727b8f6a2089d2df1e01002397a
 
 end
