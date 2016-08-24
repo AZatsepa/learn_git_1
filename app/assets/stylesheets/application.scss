@@ -13,8 +13,14 @@
  *= require_tree .
  *= require_self
  */
+<<<<<<< HEAD
 @import "bootstrap-sprockets";
 @import "bootstrap";
+=======
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
 
 
 .new_user {
@@ -38,9 +44,16 @@ h2 {
 }
 
 .field input:not([type='checkbox']) {
+<<<<<<< HEAD
   @extend .form-control
 }
 
+=======
+  @extend .form-control;
+}
+
+
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
 .create-new-post {
   width: 500px;
   padding: 10px;
@@ -51,3 +64,28 @@ h2 {
   width: 100%;
   margin: 5px;
 }
+<<<<<<< HEAD
+=======
+
+.posts-list {
+  width: 500px;
+  padding: 10px;
+  margin: auto;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.post {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: #eee;
+  margin-bottom: 5px;
+}
+
+.created-at {
+  float: right;
+}
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c

@@ -22,6 +22,9 @@ module LearnGit
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+<<<<<<< HEAD
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+=======
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
   end
 end

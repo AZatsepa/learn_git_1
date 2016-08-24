@@ -6,7 +6,15 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
+<<<<<<< HEAD
   # config.secret_key = '24cf1293842a1e39feae9fdcc5e3236d4541753fba01aa6a7d9e3b33158c9d8e19d67c2b8026aefea8fc59193832454c80d7949cbc81f6fb1367f02590f8e303'
+=======
+<<<<<<< HEAD
+  # config.secret_key = '24cf1293842a1e39feae9fdcc5e3236d4541753fba01aa6a7d9e3b33158c9d8e19d67c2b8026aefea8fc59193832454c80d7949cbc81f6fb1367f02590f8e303'
+=======
+  # config.secret_key = 'cf1a08073bc978805d973790ea87ae4907770c403cb0af156a5141507065ee517c09ee5bfafb435d5aa949a69d04330b4d255ee15f7e5fd53d8ed6975fd08bbb'
+>>>>>>> 55b1704777d77727b8f6a2089d2df1e01002397a
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -108,7 +116,15 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 11
 
   # Set up a pepper to generate the hashed password.
+<<<<<<< HEAD
   # config.pepper = '62c68208ab062e09a5f01a142db8da3a37687d89833a6c3248e37622929558ce9bc262611d6005ae612be7c4d610f73e9d78f6156a8bf89335ae4bf037791d76'
+=======
+<<<<<<< HEAD
+  # config.pepper = '62c68208ab062e09a5f01a142db8da3a37687d89833a6c3248e37622929558ce9bc262611d6005ae612be7c4d610f73e9d78f6156a8bf89335ae4bf037791d76'
+=======
+  # config.pepper = '3031a8099316c36760403e3ddbe12701c23e03120c22c2399421acbfde8521bab490b15a808a5065702fa70dce4eaadc2d9c510e0636f2c1e1c1ee3e06e62efb'
+>>>>>>> 55b1704777d77727b8f6a2089d2df1e01002397a
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
 
   # Send a notification email when the user's password is changed
   # config.send_password_change_notification = false
@@ -220,7 +236,15 @@ Devise.setup do |config|
   # Turn scoped views on. Before rendering "sessions/new", it will first check for
   # "users/sessions/new". It's turned off by default because it's slower if you
   # are using only default views.
+<<<<<<< HEAD
   # config.scoped_views = false
+=======
+<<<<<<< HEAD
+  config.scoped_views = true
+=======
+  # config.scoped_views = false
+>>>>>>> 55b1704777d77727b8f6a2089d2df1e01002397a
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
 
   # Configure the default scope given to Warden. By default it's the first
   # devise role declared in your routes (usually :user).
@@ -271,5 +295,8 @@ Devise.setup do |config|
   # When using OmniAuth, Devise cannot automatically set OmniAuth path,
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
+<<<<<<< HEAD
   config.secret_key = 'cd8280596fe2cb563031902ba13440a03cf722bf37fb8a2c4e140d2d7d1893c7b8341c0811e88651da4423b4d1e814cd72993e0d93d2a42888f8be8c8cadb16c'
+=======
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
 end

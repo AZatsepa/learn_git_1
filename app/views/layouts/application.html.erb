@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>LearnGit</title>
+<<<<<<< HEAD
   <%= stylesheet_link_tag    'application', media: 'all' %> 
   <!-- 'data-turbolinks-track' => true %> -->
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -9,18 +10,35 @@
 </head>
 <body>
 
+=======
+<<<<<<< HEAD
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
 <div class="navbar navbar-default navbar-static-top" role="navigation">
   <div class="container">
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+<<<<<<< HEAD
           <ul class="dropdown-menu">
             <li><a href="#">All users</a></li>
             <li><%= link_to 'Posts', posts_path %></li>
             <% unless current_user.nil? %>
               <li><a href="#">Profile</a></li>
               <li><%= link_to 'Create new post', new_post_path %> </li>
+=======
+          <ul class="dropdown-menu">        
+            <li><%= link_to 'All users', users_show_path %></li>
+            <li><%= link_to 'Posts', posts_path %></li>
+            <% unless current_user.nil? %>
+            <li><%= link_to 'Profile', edit_user_registration_path %></li>
+            <li><%= link_to 'Create new post', new_post_path %> </li>
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
             <% end %>
           </ul>
         </li>
@@ -34,6 +52,7 @@
     </div><!--/.nav-collapse -->
   </div>
 </div>
+<<<<<<< HEAD
 <div class='wrapper'>
 <%= yield %>
 </div>
@@ -41,5 +60,22 @@
 <div class='footer'>
 </div>
 
+=======
+<div class='warpper'>
+  <%= yield %>
+</div>
+<div class='footer'>
+</div>
+=======
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+>>>>>>> 55b1704777d77727b8f6a2089d2df1e01002397a
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
 </body>
 </html>

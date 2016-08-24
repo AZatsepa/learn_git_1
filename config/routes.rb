@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
   get 'static_pagesrake/routes'
 
   root 'static_pages#home'
@@ -7,6 +11,14 @@ Rails.application.routes.draw do
   
   resources :posts
 
+<<<<<<< HEAD
+=======
+  get 'users/show' => 'users#all_users'
+
+=======
+  devise_for :users
+>>>>>>> 55b1704777d77727b8f6a2089d2df1e01002397a
+>>>>>>> 8d3d4eb4114d6af641e39ee0bf1499233babfd6c
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
